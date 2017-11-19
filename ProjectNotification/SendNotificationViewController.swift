@@ -15,7 +15,6 @@ class SendNotificationViewController: UIViewController {
     }
 
     @IBAction func sendNotificationPressed(_ sender: UIButton) {
-        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "NotificationSend") , object: nil)
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "NotificationSend"), object: nil)
     }
-    
 }
