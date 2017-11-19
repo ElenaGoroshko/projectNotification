@@ -1,0 +1,6 @@
+framework module Pods_ProjectNotification {
+  umbrella header "Pods-ProjectNotification-umbrella.h"
+
+  export *
+  module * { export * }
+}
